@@ -1,1 +1,1 @@
-# rsschool-cv
+https://iForced.github.io/rsschool-cv/cv

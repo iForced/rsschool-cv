@@ -10,10 +10,14 @@ h2 {
     box-sizing: border-box;
 }
 header {
-    margin: 10px 200px 0;
+    margin-top: 10px;
     padding: 20px;
     background-color: blanchedalmond;
     box-shadow: 1px 1px 5px black;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .logo img {
     display: block;
@@ -53,7 +57,6 @@ header {
     display: inline-block;
 }
 .first-block {
-    margin: 0 200px;
     padding: 20px;
     background-color: rgb(49, 45, 40);
     color: rgb(202, 202, 202);
@@ -83,7 +86,6 @@ header {
     line-height: 1.7;
 }
 .second-block {
-    margin: 0 200px;
     padding: 20px;
     background-color: blanchedalmond;
     box-shadow: 1px 1px 5px black;
@@ -97,7 +99,6 @@ header {
     line-height: 1.7;
 }
 footer {
-    margin: 0 200px;
     padding: 1px;
     background-color: blanchedalmond;
     font-style: italic;

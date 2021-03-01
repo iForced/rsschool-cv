@@ -10,74 +10,78 @@
     <title>Ilya Orsich</title>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="img/avatar.jpg" alt="Мой аватар">
-        </div>
-        <div class="title">
-            <h1>Ilya Orsich</h1>
-        </div>
-        <div class="contacts">
-            <ul>
-                <li><a class="mail-link" href="mailto:iforcewmaster@gmail.com">e-mail</a></li>
-                <li><a class="git-link" href="https://github.com/iForced">GitHub</a></li>
-            </ul>
-        </div>
-    </header>
-    <section class="first-block">
-        <div class="about">
-            <h2>About me:</h2>
-            <hr>
-            <p>Hello! I am Ilya. <br>
-                Although I am not yet experienced enough in web development, at this stage I like working with the visual components, interacting with the user, and seeing the result of my work. I would like to come up with a variety of interaction algorithms. This is why I am interested in the front-end.</p>
-        </div>
-        <div class="skills">
-            <h2>My skills:</h2>
-            <hr>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Git</li>
-            </ul>
-            <h3>This is my code example:</h3>
-            <pre class="code">
-                function findShort(s){
-                    let arr = s.split(' ');
-                    let count = Number.POSITIVE_INFINITY;
-                    for (i = 0; i &lt; arr.length; i++) {
-                      if (arr[i].length &lt; count) {
-                        count = arr[i].length;
+    <div class="wrapper">
+        <header>
+            <div class="logo">
+                <img src="img/avatar.jpg" alt="Мой аватар">
+            </div>
+            <div class="title">
+                <h1>Ilya Orsich</h1>
+            </div>
+            <nav class="contacts">
+                <ul>
+                    <li><a class="mail-link" href="mailto:iforcewmaster@gmail.com">e-mail</a></li>
+                    <li><a class="git-link" href="https://github.com/iForced">GitHub</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="first-block">
+            <div class="about">
+                <h2>About me:</h2>
+                <hr>
+                <article>
+                    <p>Hello! I am Ilya. <br>
+                        Although I am not yet experienced enough in web development, at this stage I like working with the visual components, interacting with the user, and seeing the result of my work. I would like to come up with a variety of interaction algorithms. This is why I am interested in the front-end.</p>
+                </article>
+            </div>
+            <div class="skills">
+                <h2>My skills:</h2>
+                <hr>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Git</li>
+                </ul>
+                <h3>This is my code example:</h3>
+                <pre class="code">
+                    function findShort(s){
+                        let arr = s.split(' ');
+                        let count = Number.POSITIVE_INFINITY;
+                        for (i = 0; i &lt; arr.length; i++) {
+                          if (arr[i].length &lt; count) {
+                            count = arr[i].length;
+                          }
+                        }
+                        return count;
                       }
-                    }
-                    return count;
-                  }
-                findShort("bitcoin take over the world maybe who knows perhaps");
-            </pre>
-            <h2>My expirience:</h2>
-            <hr>
-            <p>I have no expirience in commercial development, but i want to self aducating. I believe that RSSchool courses will help me a lot with this.</p>
-        </div>
-    </section>
-    <section class="second-block">
-        <div class="education">
-            <h2>Education:</h2>
-            <hr>
-            <p>Minsk State Higher Aviation College, 2015</p>
-            <p>Electronic equipment maintenance engineer</p>
-            <h2>English level:</h2>
-            <p>A2, good reading</p>
-            <h2>Hobbies:</h2>
-            <ul>
-                <li>Making guitar effect pedals</li>
-                <li>Learn to snowboarding</li>
-                <li>Travel the country</li>
-            </ul>
-            <p>Now I work at Minsk National Airport as the head of fire alarm service department</p>
-        </div>
-    </section>
-    <footer>
-        <p>©2021 Ilya Orsich</p>
-    </footer>
+                    findShort("bitcoin take over the world maybe who knows perhaps");
+                </pre>
+                <h2>My expirience:</h2>
+                <hr>
+                <p>I have no expirience in commercial development, but i want to self aducating. I believe that RSSchool courses will help me a lot with this.</p>
+            </div>
+        </section>
+        <section class="second-block">
+            <div class="education">
+                <h2>Education:</h2>
+                <hr>
+                <p>Minsk State Higher Aviation College, 2015</p>
+                <p>Electronic equipment maintenance engineer</p>
+                <h2>English level:</h2>
+                <p>A2, good reading</p>
+                <h2>Hobbies:</h2>
+                <ul>
+                    <li>Making guitar effect pedals</li>
+                    <li>Learn to snowboarding</li>
+                    <li>Travel the country</li>
+                </ul>
+                <p>Now I work at Minsk National Airport as the head of fire alarm service department</p>
+            </div>
+        </section>
+        <footer>
+            <p>©2021 Ilya Orsich</p>
+        </footer>
+    </div>
 </body>
 </html>
